@@ -43,8 +43,16 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">A Propos</a></li>
-          <li><a class="nav-link scrollto" href="#resume">Résumé</a></li>
+
+          <li class="dropdown"><a href="#about"><span>Curriculum Vitae</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#about">A Propos</a></li>
+              
+              <li><a href="#skill">Compétence</a></li>
+              <li><a href="#resume">Résumé</a></li>
+            </ul>
+          </li>
+
           <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -94,7 +102,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="skill-mf">
+                  <div class="skill-mf" id="skill">
                     <p class="title-s">Compétence</p>
 
                     <span>HTML/CSS3/JS</span> <span class="pull-right">80%</span>
@@ -204,7 +212,7 @@
                   Résumé
                 </h3>
                 <p class="subtitle-a">
-                  Education et Experiences Professionnelles
+                  Formation et Experiences Professionnelles
                 </p>
                 <div class="line-mf"></div>
               </div>
@@ -212,7 +220,7 @@
           </div>
         <div class="row">
           <div class="col-lg-6" data-aos="fade-up">
-            <h3 class="resume-title">Education</h3>
+            <h3 class="resume-title">Formation</h3>
             <div class="resume-item">
               <h4>Bachelier en Technologies de l'Informatique</h4>
               <h5>2018-2021</h5>
